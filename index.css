@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root{
+--primary-color: #f9f9f9;
+--secondary-color:  #4CAF50;
+--border:1px solid #b0bd42;
+--border-radius:20px;
+}
+
+/*style du titre*/
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+/*style des paragraphes*/
+p{
+    text-align: center;
+    font-weight: 50px;
+}
+/* Style du formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: var(--border);
+    border-radius:var(--border-radius);
+    background-color:var(--primary-color) ;
+}
+
+/* Style des labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    box-sizing: border-box; /* Garantit que la largeur inclut le rembourrage et la bordure */
+}
+
+/* Style du bouton d'envoi */
+input[type="submit"] {
+    background-color:var(--secondary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: blink;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}

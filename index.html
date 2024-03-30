@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulaire_inscription.css">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <center><h2>Formulaire d'Inscription</h2></center>
+    <br><p>Pour consulter cet article de presse, veuillez remplir le formulaire d'inscription suivant:</p>
+    <br><form action="article_presse.html" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="Numéro de téléphone">Numéro de téléphone :</label>
+        <input type="tel" id="code_telephonique" pattern="[0-9]{3}" placeholder="+xxx" required><br><br>
+        <input type="text" id="Numéro de téléphone" name="Numéro de téléphone" pattern="[0-9]{9}" placeholder="xxxxxxxxx" required><br><br>
+
+        <label for="email">Adresse E-mail :</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="Date de naissaince">Date de naissaince :</label>
+        <input type="date" id="Date de naissaince" name="mot_de_passe" required><br><br>
+        <input type="submit" value="S'inscrire">    
+    </form>
+</body>
+</html>
